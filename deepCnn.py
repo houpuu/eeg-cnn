@@ -139,7 +139,7 @@ model_m.compile(loss='categorical_crossentropy',
                 )
 
 BATCH_SIZE = 100
-EPOCHS = 2
+EPOCHS = 1
 
 # 训练模型
 history = model_m.fit(train_input, train_output,
